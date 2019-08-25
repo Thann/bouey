@@ -1,0 +1,49 @@
+{
+  "name": "bouey",
+  "version": "0.0.1",
+  "description": "Multi-crypto wallet UI",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Thann/bouey.git"
+  },
+  "license": "AGPL-3.0+",
+  "scripts": {
+    "start": "nw webapp",
+    "test": "bmocha",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-brands-svg-icons": "^5.9.0",
+    "@fortawesome/free-regular-svg-icons": "^5.9.0",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "backbone": "^1.4.0",
+    "backbone-subviews": "github:thann/backbone.subviews",
+    "backbone.localstorage": "^1.1.16",
+    "bcfg": "^0.1.6",
+    "bcoin": "github:bcoin-org/bcoin#master",
+    "bootstrap": "^4.3.1",
+    "cookie": "^0.3.1",
+    "jquery": "^3.4.1",
+    "luxon": "^1.17.2"
+  },
+  "optionalDependencies": {
+    "bcash": "^1.1.1",
+    "hsd": "0.0.0",
+    "lcoin": "^1.0.0-beta.15"
+  },
+  "devDependencies": {
+    "bmocha": "^2.1.2",
+    "chokidar": "^3.0.2",
+    "eslint": "^5.16.0",
+    "node-pre-gyp": "^0.13.0",
+    "nw": "^0.40.1",
+    "nw-builder": "^3.5.7",
+    "nw-gyp": "^3.6.3",
+    "supertest": "github:thann/supertest"
+  },
+  "eslintIgnore": [
+    "**/*.js",
+    "!webapp/**/*.js"
+  ]
+}
